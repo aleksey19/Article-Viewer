@@ -7,11 +7,25 @@
 //
 
 #import "ArticlesTVC.h"
+#import "RequestManager.h"
 
 @interface ArticlesTVC ()
-
+@property (nonatomic, strong) NSArray *articles;
 @end
 
 @implementation ArticlesTVC
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self getArticles];
+}
+
+- (void)getArticles
+{
+    [RequestManager getArticlesWithBlock:^(NSError *error, NSDictionary *dicticionary, NSArray *array) {
+        self.articles = array;
+    }];
+}
 
 @end
