@@ -1,15 +1,17 @@
 //
-//  ViewController.h
+//  ArticlesTVC.m
 //  ArticleViewer
 //
 //  Created by Aleksey on 6/19/16.
 //  Copyright © 2016 Aleksey. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ArticlesTVC.h"
 
-@interface ViewController : UIViewController
-
+@interface ArticlesTVC ()
 
 @end
 
+@implementation ArticlesTVC
+
+@end

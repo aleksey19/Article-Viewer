@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5B7F9A431D16E83B0092E993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A421D16E83B0092E993 /* main.m */; };
 		5B7F9A461D16E83B0092E993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A451D16E83B0092E993 /* AppDelegate.m */; };
-		5B7F9A491D16E83B0092E993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A481D16E83B0092E993 /* ViewController.m */; };
 		5B7F9A4C1D16E83B0092E993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F9A4A1D16E83B0092E993 /* Main.storyboard */; };
 		5B7F9A4F1D16E83B0092E993 /* ArticleViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A4D1D16E83B0092E993 /* ArticleViewer.xcdatamodeld */; };
 		5B7F9A511D16E83B0092E993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F9A501D16E83B0092E993 /* Assets.xcassets */; };
 		5B7F9A541D16E83B0092E993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F9A521D16E83B0092E993 /* LaunchScreen.storyboard */; };
 		5B7F9A5F1D16E83C0092E993 /* ArticleViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A5E1D16E83C0092E993 /* ArticleViewerTests.m */; };
+		5B7F9A711D16EB0D0092E993 /* ArticlesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A701D16EB0D0092E993 /* ArticlesTVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,8 +32,6 @@
 		5B7F9A421D16E83B0092E993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B7F9A441D16E83B0092E993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B7F9A451D16E83B0092E993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5B7F9A471D16E83B0092E993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5B7F9A481D16E83B0092E993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5B7F9A4B1D16E83B0092E993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B7F9A4E1D16E83B0092E993 /* ArticleViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArticleViewer.xcdatamodel; sourceTree = "<group>"; };
 		5B7F9A501D16E83B0092E993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +40,8 @@
 		5B7F9A5A1D16E83C0092E993 /* ArticleViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArticleViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F9A5E1D16E83C0092E993 /* ArticleViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArticleViewerTests.m; sourceTree = "<group>"; };
 		5B7F9A601D16E83C0092E993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7F9A6F1D16EB0D0092E993 /* ArticlesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticlesTVC.h; path = Controllers/ArticlesTVC.h; sourceTree = "<group>"; };
+		5B7F9A701D16EB0D0092E993 /* ArticlesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticlesTVC.m; path = Controllers/ArticlesTVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +83,9 @@
 		5B7F9A401D16E83B0092E993 /* ArticleViewer */ = {
 			isa = PBXGroup;
 			children = (
-				5B7F9A441D16E83B0092E993 /* AppDelegate.h */,
-				5B7F9A451D16E83B0092E993 /* AppDelegate.m */,
-				5B7F9A471D16E83B0092E993 /* ViewController.h */,
-				5B7F9A481D16E83B0092E993 /* ViewController.m */,
+				5B7F9A6E1D16EAF00092E993 /* Controllers */,
+				5B7F9A6A1D16EA920092E993 /* Model */,
+				5B7F9A691D16EA8B0092E993 /* View */,
 				5B7F9A4A1D16E83B0092E993 /* Main.storyboard */,
 				5B7F9A501D16E83B0092E993 /* Assets.xcassets */,
 				5B7F9A521D16E83B0092E993 /* LaunchScreen.storyboard */,
@@ -100,6 +99,8 @@
 		5B7F9A411D16E83B0092E993 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B7F9A441D16E83B0092E993 /* AppDelegate.h */,
+				5B7F9A451D16E83B0092E993 /* AppDelegate.m */,
 				5B7F9A421D16E83B0092E993 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -112,6 +113,29 @@
 				5B7F9A601D16E83C0092E993 /* Info.plist */,
 			);
 			path = ArticleViewerTests;
+			sourceTree = "<group>";
+		};
+		5B7F9A691D16EA8B0092E993 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5B7F9A6A1D16EA920092E993 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B7F9A6E1D16EAF00092E993 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B7F9A6F1D16EB0D0092E993 /* ArticlesTVC.h */,
+				5B7F9A701D16EB0D0092E993 /* ArticlesTVC.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,8 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B7F9A711D16EB0D0092E993 /* ArticlesTVC.m in Sources */,
 				5B7F9A4F1D16E83B0092E993 /* ArticleViewer.xcdatamodeld in Sources */,
-				5B7F9A491D16E83B0092E993 /* ViewController.m in Sources */,
 				5B7F9A461D16E83B0092E993 /* AppDelegate.m in Sources */,
 				5B7F9A431D16E83B0092E993 /* main.m in Sources */,
 			);
