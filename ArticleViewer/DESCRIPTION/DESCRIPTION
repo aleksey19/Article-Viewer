@@ -1,0 +1,25 @@
+
+Groups:
+- AppDelegate
+    Consist of:
+    - Appdelegate class.
+    - Appdelegate+MOC category. It encapsulates creating of managedObjectModel, persistentStoreCoordinator and managedObjectContext.
+
+- Controllers
+    Consist of:
+    - CoreData TableViewController class. It encapsulate usage of NSFetchedResultsController.
+    - ArticlesTVC class. Subclass of CoreData TableViewController.
+    - ArticleVC class. Controller with UIWebView for article details.
+
+- Model
+    Consist of:
+    - ManagedObjectContextAvailability header file. It store 2 constants for notifications.
+    - ArticleViewer.xcdatamodeld. DB model of app.
+    - Entities. This folder store Article managedObject class.
+    - WebService. Store WebService class is subclass of AFHTTPSessionManager. Instrument for communication with our RestApi.
+    - RequestManager Class. Helper class for using WebService.
+
+- View
+    Consist of:
+    - Main.storyboard file
+    - ArticleCell class. Cell for article in main view controller.

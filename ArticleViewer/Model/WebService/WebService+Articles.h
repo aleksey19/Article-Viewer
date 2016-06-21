@@ -7,6 +7,7 @@
 //
 
 #import "WebService.h"
+#import "Article+CoreDataProperties.h"
 
 @interface WebService (Articles)
 

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Article" representedClassName="Article" syncable="YES">
+        <attribute name="article_image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="content_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="image_medium" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_thumb" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="web_page" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Article" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
 </model>

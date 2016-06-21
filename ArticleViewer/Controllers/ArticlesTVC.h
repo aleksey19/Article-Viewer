@@ -2,12 +2,14 @@
 //  ArticlesTVC.h
 //  ArticleViewer
 //
-//  Created by Aleksey on 6/19/16.
+//  Created by Aleksey on 6/20/16.
 //  Copyright © 2016 Aleksey. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CoreDataTableViewController.h"
 
-@interface ArticlesTVC : UITableViewController
+@interface ArticlesTVC : CoreDataTableViewController
+
+@property (nonatomic, strong) NSManagedObjectContext *managedObjectContext;
 
 @end
