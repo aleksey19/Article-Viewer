@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37A3F7C6EF788D51C4747AC8 /* libPods-ArticleViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D861BB0462B34D34ACF46A /* libPods-ArticleViewer.a */; };
 		5B03F6ED1D186191008FE2E2 /* ArticleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B03F6EC1D186191008FE2E2 /* ArticleVC.m */; };
 		5B7F9A431D16E83B0092E993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A421D16E83B0092E993 /* main.m */; };
 		5B7F9A461D16E83B0092E993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A451D16E83B0092E993 /* AppDelegate.m */; };
@@ -26,7 +25,8 @@
 		5BFC61381D183A2C0040606F /* ArticlesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC61371D183A2C0040606F /* ArticlesTVC.m */; };
 		5BFF16E01D17210600C91282 /* Article+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF16DD1D17210600C91282 /* Article+CoreDataProperties.m */; };
 		5BFF16E11D17210600C91282 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF16DF1D17210600C91282 /* Article.m */; };
-		7AF5EC7A3CA8DB3F39E1BFA3 /* libPods-ArticleViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5341D03A6A38BF359FF992D4 /* libPods-ArticleViewerTests.a */; };
+		AC3ED50F3596B73FA2C811D7 /* libPods-ArticleViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F96A6505A843EF6FE503A46A /* libPods-ArticleViewer.a */; };
+		C38ABC7DF3B433877FCFA7D3 /* libPods-ArticleViewerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D5284FBA04F80EEFC2849F /* libPods-ArticleViewerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		063BB0AC7459088E3A485492 /* Pods-ArticleViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.release.xcconfig"; sourceTree = "<group>"; };
-		34D861BB0462B34D34ACF46A /* libPods-ArticleViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A269A15CB8875EFFCE806A3 /* Pods-ArticleViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4CB0BD20B9C66FB50259F41B /* Pods-ArticleViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.debug.xcconfig"; sourceTree = "<group>"; };
-		5341D03A6A38BF359FF992D4 /* libPods-ArticleViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D5284FBA04F80EEFC2849F /* libPods-ArticleViewerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleViewerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B03F6EB1D186191008FE2E2 /* ArticleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleVC.h; path = Controllers/ArticleVC.h; sourceTree = "<group>"; };
 		5B03F6EC1D186191008FE2E2 /* ArticleVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleVC.m; path = Controllers/ArticleVC.m; sourceTree = "<group>"; };
 		5B7F9A3E1D16E83B0092E993 /* ArticleViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArticleViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,7 +75,11 @@
 		5BFF16DD1D17210600C91282 /* Article+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Article+CoreDataProperties.m"; path = "Model/Entities/Article+CoreDataProperties.m"; sourceTree = "<group>"; };
 		5BFF16DE1D17210600C91282 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Article.h; path = Model/Entities/Article.h; sourceTree = "<group>"; };
 		5BFF16DF1D17210600C91282 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Article.m; path = Model/Entities/Article.m; sourceTree = "<group>"; };
-		B12B74311C60616947EC2281 /* Pods-ArticleViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.release.xcconfig"; sourceTree = "<group>"; };
+		75DE6830D5B019A5EBF2D4AC /* Pods-ArticleViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.release.xcconfig"; sourceTree = "<group>"; };
+		8CA5BEE93BAD1E3688C7EE32 /* Pods-ArticleViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA0A4A8013FA040CEAA4A93 /* Pods-ArticleViewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F96A6505A843EF6FE503A46A /* libPods-ArticleViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArticleViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E962A294A35CCCF65BCCBF /* Pods-ArticleViewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArticleViewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A3F7C6EF788D51C4747AC8 /* libPods-ArticleViewer.a in Frameworks */,
+				AC3ED50F3596B73FA2C811D7 /* libPods-ArticleViewer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AF5EC7A3CA8DB3F39E1BFA3 /* libPods-ArticleViewerTests.a in Frameworks */,
+				C38ABC7DF3B433877FCFA7D3 /* libPods-ArticleViewerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,8 +119,8 @@
 				5B7F9A401D16E83B0092E993 /* ArticleViewer */,
 				5B7F9A5D1D16E83C0092E993 /* ArticleViewerTests */,
 				5B7F9A3F1D16E83B0092E993 /* Products */,
-				D7784520CC030EDDBE054975 /* Pods */,
 				94D3613DBE0304AD822763A0 /* Frameworks */,
+				E8D9F2B1FA5D521CF2F75D8B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,19 +243,19 @@
 		94D3613DBE0304AD822763A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34D861BB0462B34D34ACF46A /* libPods-ArticleViewer.a */,
-				5341D03A6A38BF359FF992D4 /* libPods-ArticleViewerTests.a */,
+				F96A6505A843EF6FE503A46A /* libPods-ArticleViewer.a */,
+				15D5284FBA04F80EEFC2849F /* libPods-ArticleViewerTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D7784520CC030EDDBE054975 /* Pods */ = {
+		E8D9F2B1FA5D521CF2F75D8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4CB0BD20B9C66FB50259F41B /* Pods-ArticleViewer.debug.xcconfig */,
-				B12B74311C60616947EC2281 /* Pods-ArticleViewer.release.xcconfig */,
-				4A269A15CB8875EFFCE806A3 /* Pods-ArticleViewerTests.debug.xcconfig */,
-				063BB0AC7459088E3A485492 /* Pods-ArticleViewerTests.release.xcconfig */,
+				8CA5BEE93BAD1E3688C7EE32 /* Pods-ArticleViewer.debug.xcconfig */,
+				75DE6830D5B019A5EBF2D4AC /* Pods-ArticleViewer.release.xcconfig */,
+				F9E962A294A35CCCF65BCCBF /* Pods-ArticleViewerTests.debug.xcconfig */,
+				CCA0A4A8013FA040CEAA4A93 /* Pods-ArticleViewerTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -267,12 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B7F9A631D16E83C0092E993 /* Build configuration list for PBXNativeTarget "ArticleViewer" */;
 			buildPhases = (
-				AF20CCC4BF9D73EADB2B6D7F /* [CP] Check Pods Manifest.lock */,
+				895D8D1CE308E259972C3821 /* [CP] Check Pods Manifest.lock */,
 				5B7F9A3A1D16E83B0092E993 /* Sources */,
 				5B7F9A3B1D16E83B0092E993 /* Frameworks */,
 				5B7F9A3C1D16E83B0092E993 /* Resources */,
-				C6B6FE078F6FC100F1D6595B /* [CP] Embed Pods Frameworks */,
-				213E81ADC267210EAE49A6AC /* [CP] Copy Pods Resources */,
+				44DC3B6FDB4B873001F7382B /* [CP] Embed Pods Frameworks */,
+				1598649124BFEC4608355EA5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,7 +363,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		213E81ADC267210EAE49A6AC /* [CP] Copy Pods Resources */ = {
+		1598649124BFEC4608355EA5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,7 +378,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		44DC3B6FDB4B873001F7382B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		506DFA59947962AD4F5893BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		895D8D1CE308E259972C3821 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,36 +436,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleViewerTests/Pods-ArticleViewerTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AF20CCC4BF9D73EADB2B6D7F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		C6B6FE078F6FC100F1D6595B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArticleViewer/Pods-ArticleViewer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CAC704A2462FDF36DFA3317F /* [CP] Embed Pods Frameworks */ = {
@@ -600,7 +600,7 @@
 		};
 		5B7F9A641D16E83C0092E993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CB0BD20B9C66FB50259F41B /* Pods-ArticleViewer.debug.xcconfig */;
+			baseConfigurationReference = 8CA5BEE93BAD1E3688C7EE32 /* Pods-ArticleViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArticleViewer/Info.plist;
@@ -613,7 +613,7 @@
 		};
 		5B7F9A651D16E83C0092E993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B12B74311C60616947EC2281 /* Pods-ArticleViewer.release.xcconfig */;
+			baseConfigurationReference = 75DE6830D5B019A5EBF2D4AC /* Pods-ArticleViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ArticleViewer/Info.plist;
@@ -626,7 +626,7 @@
 		};
 		5B7F9A671D16E83C0092E993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A269A15CB8875EFFCE806A3 /* Pods-ArticleViewerTests.debug.xcconfig */;
+			baseConfigurationReference = F9E962A294A35CCCF65BCCBF /* Pods-ArticleViewerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArticleViewerTests/Info.plist;
@@ -639,7 +639,7 @@
 		};
 		5B7F9A681D16E83C0092E993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063BB0AC7459088E3A485492 /* Pods-ArticleViewerTests.release.xcconfig */;
+			baseConfigurationReference = CCA0A4A8013FA040CEAA4A93 /* Pods-ArticleViewerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArticleViewerTests/Info.plist;
