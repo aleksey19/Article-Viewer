@@ -21,7 +21,6 @@
 		5B7F9A851D170C520092E993 /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A841D170C520092E993 /* WebService.m */; };
 		5B7F9A871D170E150092E993 /* DESCRIPTION in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F9A861D170E150092E993 /* DESCRIPTION */; };
 		5B7F9A8B1D170E650092E993 /* ArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F9A8A1D170E650092E993 /* ArticleCell.m */; };
-		5BE6AF611D19D1CF00D73EF3 /* tmp in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6AF601D19D1CF00D73EF3 /* tmp */; };
 		5BFC61311D1823E80040606F /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC61301D1823E80040606F /* CoreDataTableViewController.m */; };
 		5BFC61341D1826160040606F /* AppDelegate+MOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC61331D1826160040606F /* AppDelegate+MOC.m */; };
 		5BFC61381D183A2C0040606F /* ArticlesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFC61371D183A2C0040606F /* ArticlesTVC.m */; };
@@ -69,7 +68,6 @@
 		5B7F9A861D170E150092E993 /* DESCRIPTION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = DESCRIPTION; path = DESCRIPTION/DESCRIPTION; sourceTree = "<group>"; };
 		5B7F9A891D170E650092E993 /* ArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArticleCell.h; path = View/ArticleCell.h; sourceTree = "<group>"; };
 		5B7F9A8A1D170E650092E993 /* ArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArticleCell.m; path = View/ArticleCell.m; sourceTree = "<group>"; };
-		5BE6AF601D19D1CF00D73EF3 /* tmp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = tmp; path = ArticleViewer/tmp; sourceTree = "<group>"; };
 		5BFC612F1D1823E80040606F /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataTableViewController.h; path = "Controllers/Core Data TableViewController/CoreDataTableViewController.h"; sourceTree = "<group>"; };
 		5BFC61301D1823E80040606F /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataTableViewController.m; path = "Controllers/Core Data TableViewController/CoreDataTableViewController.m"; sourceTree = "<group>"; };
 		5BFC61321D1826160040606F /* AppDelegate+MOC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+MOC.h"; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		5B7F9A351D16E83B0092E993 = {
 			isa = PBXGroup;
 			children = (
-				5BE6AF601D19D1CF00D73EF3 /* tmp */,
 				5B7F9A401D16E83B0092E993 /* ArticleViewer */,
 				5B7F9A5D1D16E83C0092E993 /* ArticleViewerTests */,
 				5B7F9A3F1D16E83B0092E993 /* Products */,
@@ -351,7 +348,6 @@
 			files = (
 				5B7F9A541D16E83B0092E993 /* LaunchScreen.storyboard in Resources */,
 				5B7F9A511D16E83B0092E993 /* Assets.xcassets in Resources */,
-				5BE6AF611D19D1CF00D73EF3 /* tmp in Resources */,
 				5B7F9A4C1D16E83B0092E993 /* Main.storyboard in Resources */,
 				5B7F9A871D170E150092E993 /* DESCRIPTION in Resources */,
 			);
